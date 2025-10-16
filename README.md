@@ -1,2 +1,3 @@
 # EchoView47
-Contrastive learning for the classification of 47 echocardiographic views
+Robust Fine-Grained Echocardiographic View Classification with Supervised Contrastive Learning
+Code will be made public upon acceptance.
