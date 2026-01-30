@@ -1,4 +1,4 @@
-# EchoView47
+# EchoFine
 Robust Fine-Grained Echocardiographic View Classification with Supervised Contrastive Learning. 
 
 The dataset curated for this work: https://www.thrive-centre.com//datasets/TTE47
