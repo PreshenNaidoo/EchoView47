@@ -30,8 +30,6 @@ The work introduces and evaluates:
 - **Released pretrained/fine-tuned models (EchoForge)**:  
   https://github.com/thrive-centre/EchoForge/blob/main/echoforge/classification/models/EchoView47/README.md
 
-> Note: The full training set used in the paper is restricted by data governance.  
-> The public release focuses on the test benchmark and model artifacts.
 
 ---
 
