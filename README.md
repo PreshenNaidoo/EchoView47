@@ -143,6 +143,15 @@ Typical artifacts include:
 - Metric reports (`results_*.json`, classification reports).
 - Figures/CSVs in `results_plots/` (temperature sweeps, grouped best accuracy).
 
+### Temperature-sweep plots (`results_plots/`)
+
+| Architecture | SupCon | LogSum | DropCon (k=1, v=2) | DropCon (k=1, v=3) |
+|---|---|---|---|---|
+| **Xception** | ![xception-supcon](results_plots/tempsweep_xception_supcon_eval_test_files.png) | ![xception-logsum](results_plots/tempsweep_xception_logsum_eval_test_files.png) | ![xception-dropcon-k1-v2](results_plots/tempsweep_xception_dropcon_k1_v2_eval_test_files.png) | ![xception-dropcon-k1-v3](results_plots/tempsweep_xception_dropcon_k1_v3_eval_test_files.png) |
+| **ConvNeXt-Tiny** | ![convnexttiny-supcon](results_plots/tempsweep_convnexttiny_supcon_eval_test_files.png) | ![convnexttiny-logsum](results_plots/tempsweep_convnexttiny_logsum_eval_test_files.png) | ![convnexttiny-dropcon-k1-v2](results_plots/tempsweep_convnexttiny_dropcon_k1_v2_eval_test_files.png) | ![convnexttiny-dropcon-k1-v3](results_plots/tempsweep_convnexttiny_dropcon_k1_v3_eval_test_files.png) |
+| **SwinTransformerV2-Tiny** | ![swintransformerv2tiny-supcon](results_plots/tempsweep_swintransformerv2tiny_supcon_eval_test_files.png) | ![swintransformerv2tiny-logsum](results_plots/tempsweep_swintransformerv2tiny_logsum_eval_test_files.png) | ![swintransformerv2tiny-dropcon-k1-v2](results_plots/tempsweep_swintransformerv2tiny_dropcon_k1_v2_eval_test_files.png) | ![swintransformerv2tiny-dropcon-k1-v3](results_plots/tempsweep_swintransformerv2tiny_dropcon_k1_v3_eval_test_files.png) |
+| **EfficientNetV2-S** | ![efficientnetv2s-supcon](results_plots/tempsweep_efficientnetv2s_supcon_eval_test_files.png) | ![efficientnetv2s-logsum](results_plots/tempsweep_efficientnetv2s_logsum_eval_test_files.png) | ![efficientnetv2s-dropcon-k1-v2](results_plots/tempsweep_efficientnetv2s_dropcon_k1_v2_eval_test_files.png) | ![efficientnetv2s-dropcon-k1-v3](results_plots/tempsweep_efficientnetv2s_dropcon_k1_v3_eval_test_files.png) |
+
 ---
 
 ## Citation
@@ -152,4 +161,3 @@ If you use this repository, please cite the associated paper:
 **Preshen Naidoo et al.**  
 *Robust Fine-Grained Echocardiographic View Classification with Supervised Contrastive Learning.*  
 Submitted to *Medical Image Analysis*.
-
