@@ -16,7 +16,7 @@ This repository contains code for:
 - Multi-expert agreement analysis.
 - Statistical significance testing and reporting plots.
 
-The work introduces and evaluates:
+The work evaluates:
 - **TTE47**: a 47-class fine-grained echo benchmark.
 - Contrastive objectives including **SupCon**, **DropCon**, and **LogSum**.
 - Representation-space robustness metrics (**DR**, **LRP**).
