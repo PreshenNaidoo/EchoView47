@@ -143,7 +143,8 @@ Typical artifacts include:
 - Metric reports (`results_*.json`, classification reports).
 - Figures/CSVs in `results_plots/` (temperature sweeps, grouped best accuracy).
 
-### Temperature-sweep plots (`results_plots/`)
+### Hyperparameter-sweep plots (`results_plots/`)
+Here is the full range of experiments conducted. Table 6 in the paper contains only the best scores for each method/architecture across these sweeps (these can be found in the csv files in the results_plots folder).
 
 | Architecture | SupCon | LogSum | DropCon (k=1, v=2) | DropCon (k=1, v=3) |
 |---|---|---|---|---|
