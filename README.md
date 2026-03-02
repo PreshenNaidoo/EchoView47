@@ -2,7 +2,7 @@
 
 Official research code for:
 **Robust Fine-Grained Echocardiographic View Classification with Supervised Contrastive Learning**  
-(submitted to *Medical Image Analysis*).
+Published *Medical Image Analysis*: https://doi.org/10.1016/j.media.2026.104006
 
 ---
 
